@@ -1,7 +1,5 @@
 # Rotary Global History Fellowship — *First 100 Years* Preservation Archive
 
----
-
 ## 📚 Project Overview
 
 This repository contains an archival preservation of the *Rotary Global History Fellowship* "First 100 Years" project, originally hosted at [rghfhome.org](http://www.rghfhome.org) and later mirrored at [rghf.xyz](http://www.rghf.xyz).
