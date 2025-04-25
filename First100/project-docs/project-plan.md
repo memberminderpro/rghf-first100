@@ -81,7 +81,7 @@ This project involves recovering, cleaning, and structuring the contents of a le
 
 # Next Steps
 
-- Generate a [move-map CSV](move-map.md) classifying each legacy file.
+- Generate a [move-map CSV](First100/project-docs/move-map.md) classifying each legacy file.
 - Extract content candidates into `drafts/`.
 - Clean drafts into structured HTML5.
 - Build relationship and taxonomy maps as we go.
