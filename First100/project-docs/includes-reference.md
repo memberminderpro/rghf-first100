@@ -1,0 +1,22 @@
+# Includes Reference
+This document catalogs all `_include/` files from the legacy site.
+---
+- `_include/peace_header.html` — The Presidents of Rotary International (Slug: `the-presidents-of-rotary-international`)
+- `_include/rotary_network.html` — Rotary International Fellowships and Action Groups (Slug: `rotary-international-fellowships-and-action-groups`)
+- `_include/rotary_regions.html` — Rotary International Regional Histories (Slug: `rotary-international-regional-histories`)
+- `_include/RGHF_header.html` — Rotary Global History Foundation (Slug: `rotary-global-history-foundation`)
+- `_include/rotary_first_100_header.html` — Rotary First 100 Clubs (Slug: `rotary-first-100-clubs`)
+- `_include/rotary_foundation.html` — A History of the Rotary Foundation (Slug: `a-history-of-the-rotary-foundation`)
+- `_include/rotary_presidents.html` — The Presidents of Rotary International (Slug: `the-presidents-of-rotary-international`)
+- `_include/rotary_conventions.html` — The Presidents of Rotary International (Slug: `the-presidents-of-rotary-international`)
+- `_include/rotary_leaders.html` — The Early Leaders of Rotary International (Slug: `the-early-leaders-of-rotary-international`)
+- `_include/rotaryfoundation_hor.html` — A History of the Rotary Foundation (Slug: `a-history-of-the-rotary-foundation`)
+- `_include/RGHF_menu.html` — RGHF (Slug: `rghf`)
+- `_include/district_menu.html` — Rotary Global History Menu (Slug: `rotary-global-history-menu`)
+- `_include/rotary_fellowships.html` — Rotary International in War and Peace (Slug: `rotary-international-in-war-and-peace`)
+- `_include/rotary_and_youth.html` — Rotary and Youth (Slug: `rotary-and-youth`)
+- `_include/new_header.html` — RGHF (Slug: `rghf`)
+- `_include/rotary_global_history_header.html` — The history of Rotary from RGHF (Slug: `the-history-of-rotary-from-rghf`)
+- `_include/index.html` — index (Slug: `index`)
+- `_include/menutop.html` — Helen Reisler (Slug: `helen-reisler`)
+- `_include/rotary_and_war.html` — Rotary International in War and Peace (Slug: `rotary-international-in-war-and-peace`)
