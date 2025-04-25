@@ -1,0 +1,247 @@
+﻿/* -------------
+Copyright Rotary International
+One Rotary Center
+1560 Sherman Ave.
+Evanston, IL 60201, USA
+
+----------------
+Design Team
+----------------
+Michael Nix
+Rose Fu
+
+----------------
+Web Team
+----------------
+David Schober
+Antoinette Tuscano
+Joseph Derr
+Beth Skony
+Tonya Weger
+
+----------------
+Development Team
+----------------
+Anabhra Soni
+Donna Sullivan
+Samir Dobric
+Jay Ritchie
+---------------- */
+
+/* These ri styles were added by Donna */ 
+/* In order for the style to be in the Page Content Drop Down */ 
+/* they have to be named ms-XXX */ 
+
+/* Sub Head - <h2> */ 
+.SubHead {
+color:#666666;
+font:1.2em Georgia,"Times New Roman",Times,serif;
+font-weight:bold;
+line-height:1.3em;
+margin:0;
+padding:5px 0px 0px 0px;
+}
+
+/* Byline - <div class="byline"> */ 
+.Byline {
+color:#666666;
+font-size:.85em;
+font-weight:normal;
+line-height:1.4em;
+margin:0;
+padding:10px 0px 5px 0px;
+}
+
+/* Section Title 1 - <h3> */ 
+.SectionTitle1 {
+color:#666666;
+font:1.1em Georgia,"Times New Roman",Times,serif;
+font-weight:bold;
+letter-spacing:1px;
+line-height:1.4em;
+margin:0;
+padding:10px 0px 0px 0px;
+}
+
+/* Section Title 2 - <h4> */ 
+.SectionTitle2 {
+color:#666666;
+font:1.1em Georgia,"Times New Roman",Times,serif;
+font-weight:bold;
+line-height:1.4em;
+margin:0;
+padding:10px 0px 0px 0px;
+}
+
+/* Intro - <p class="intro">  */ 
+.Intro {
+font:1.15em Verdana,Arial,Helvetica,sans-serif;
+line-height:1.5em;
+margin:10px 0px 10px 0px;
+}
+
+/* Intro Drop Cap - <span> (inside <p class="intro">) */ 
+.IntroDropCap {
+color:#666666;
+font:3.3em Georgia,"Times New Roman",Times,serif;
+float:left;
+width:40px;
+line-height:40px;
+padding:5px 0px 0px 0px;
+}
+
+
+/* Body - <p> */ 
+.Body {
+color:#333333;
+font:.9em Verdana,Arial,Helvetica,sans-serif;
+font-weight:normal;
+line-height:1.8em;
+margin:12px 0px 12px 0px;
+}
+
+/* Quote - <div class="quote"> */ 
+/* Donna:  Is this blockquote? */ 
+.Quote {
+display:block;
+border-top:1px solid #d2c896;
+border-bottom:1px solid #d2c896;
+color:#786e64;
+font:1.1em Georgia,"Times New Roman",Times,serif;
+font-weight:bold;
+line-height:1.6em;
+width:450px;
+margin:auto;
+padding:10px 0px 10px 0px;
+}
+
+/* Quote Credit - <span> <inside <div class="quote">) 
+{ may be buttons, not styles depending on Sharepoint behavior } : */ 
+/* Donna:  Is this blockquote span */ 
+.QuoteCredit {
+display:block;
+color:#999999;
+font-size:.75em;
+padding:10px 0px 0px 0px;
+text-align:right;
+}
+
+/* Unordered List - <ul> */ 
+.UnorderedList {
+display:block;
+list-style:none;
+margin:0px 20px 0px 20px;
+padding:0;
+}
+.UnorderedList ul li {
+display:block;
+background:url('http://www.rghf.xyz/first100/presidents/conventions/2010/arrow.gif') no-repeat 0px 7px;
+color:#333333;
+font-weight:normal;
+line-height:1.8em;
+padding:0px 0px 10px 15px;
+	font-style: normal;
+	font-variant: normal;
+	font-size: .9em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Ordered List - <ol> */ 
+.OrderedList {
+display:block;
+list-style-type:decimal;
+margin:0px 0px 0px 40px;
+padding:0;
+}
+.OrderedList ol li {
+color:#333333;
+font:.9em Verdana,Arial,Helvetica,sans-serif;
+font-weight:normal;
+line-height:1.8em;
+padding:0px 0px 10px 0px;
+margin:0px 0px 0px -6px;
+}
+
+/* Bold - <strong> */ 
+.Bold {
+color:#666666;
+font-weight:bold;
+}
+/* Italics - <em> */ 
+.Italics {
+font-style:italic;
+}
+
+/* Highlight - <span class="highlight"></span> */ 
+.Highlight {
+background-color:#FFFFCC;
+}
+
+/* Note - <div class="note"> */ 
+.Note {
+color:#333333;
+font-size:.85em;
+font-weight:normal;
+line-height:1.8em;
+margin:20px 0px 0px 0px;
+padding:0;
+}
+
+/* Table - <table><tr><td></td></tr></table> */ 
+.Table {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:1em;
+}
+
+.Table td {
+font-size:1em;
+}
+.Table tr {
+font-size:1em;
+}
+.Table table a {
+text-decoration:underline;
+}
+.Table table a:hover {
+background-color:#fcfbf5;
+}
+.Table .table {
+border-collapse:collapse;
+border-top:1px solid #ded9c7;
+margin:10px 0px 0px 0px;
+width:100%;
+}
+.Table .table td {
+border-bottom:1px solid #ded9c7;
+border-space:0px;
+font-size:.85em;
+line-height:1.8em;
+padding:10px 5px 10px 5px;
+vertical-align:top;
+}
+.Table .label {
+background-color:#f8f7ef;
+color:#786e64;
+font-weight:bold;
+}
+.Table .row1 {
+border-space:0px;
+}
+.Table .row2 {
+background-color:#fafaf8;
+border-space:0px;
+}
+
+/* Horizontal Rule - <div class="hr"><hr /></div> */ 
+.HorizontalRule {
+clear:both;
+margin:0;
+padding:0;
+}
+.HorizontalRule hr {
+clear:both;
+border:0;
+color:#ded9c7;
+background-color:#ded9c7;
+height:1px;
+}
