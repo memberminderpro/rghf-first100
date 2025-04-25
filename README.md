@@ -4,24 +4,21 @@
 
 ## 📚 Project Overview
 
-This repository contains the comprehensive archival preservation of the *Rotary Global History Fellowship* "First 100 Years" project, originally hosted at [rghfhome.org](http://www.rghfhome.org) and later mirrored at [rghf.xyz](http://www.rghf.xyz).
+This repository contains an archival preservation of the *Rotary Global History Fellowship* "First 100 Years" project, originally hosted at [rghfhome.org](http://www.rghfhome.org) and later mirrored at [rghf.xyz](http://www.rghf.xyz).
 
-The contents have been meticulously recovered, structured, and preserved to ensure permanent access to Rotary’s foundational historical records.
-
-> **Archival Methodology:**  
-> All materials were subjected to controlled extraction, cleanup, de-duplication, normalization, and versioned preservation to meet contemporary digital archival standards.
+The goal of this project is to preserve Rotary's early digital history, ensuring future access to original historical materials independent of legacy hosting platforms.
 
 ---
 
-## 🛠️ Project Methodology
+## 🛠️ Project Process
 
-| Phase | Description |
+| Step | Description |
 |:---|:---|
-| **1. Data Recovery** | Site crawled and mirrored using `wget` with asset validation. Full raw backup archived (`tar.gz`) and cloud-mirrored. |
-| **2. Version Control** | Full Git versioning instituted prior to any transformations, ensuring immutable historical reference. |
-| **3. Content Cleanup** | Custom Bash automation used to extract real historical content, strip obsolete markup (FrontPage, MS Word), and normalize file structures. |
-| **4. Historical Navigation Extraction** | Legacy navigational structures preserved separately in Markdown for research and relational mapping. |
-| **5. Preservation and Future-Proofing** | All critical data backed up in redundant cloud repositories and stored in normalized, migration-ready formats. |
+| **Data Recovery** | Site mirrored and backed up in full (`tar.gz` format) |
+| **Version Control** | Git versioning instituted prior to cleanup |
+| **Content Cleanup** | Scripts developed to remove obsolete markup (FrontPage, MS Word), consolidate real content, and preserve historic structure |
+| **Navigation Preservation** | Legacy menus extracted and archived separately in Markdown format for reference |
+| **Long-Term Storage** | Backups distributed across cloud storage locations for disaster recovery |
 
 ---
 
@@ -29,52 +26,38 @@ The contents have been meticulously recovered, structured, and preserved to ensu
 
 | Path | Purpose |
 |:---|:---|
-| `legacy-website/first100/` | Recovered and cleaned historical website content |
-| `legacy-website/first100/images/` | Original content images (photographs, logos, page visuals) |
-| `legacy-website/first100/_media/` | Linked documents, PDFs, videos from the historical archive |
-| `legacy-docs/` | Extracted historical navigation menus and structure (Markdown format) |
-| `.sh` Scripts | Custom Bash scripts used for extraction, cleanup, and organization |
-| `.tar.gz` Archives | Full backup archives (excluded from GitHub for efficiency) |
+| `legacy-website/first100/` | Recovered website content (HTML, images, documents) |
+| `legacy-website/first100/images/` | Historical photographs and graphics |
+| `legacy-website/first100/_media/` | Archived documents, PDFs, and videos |
+| `legacy-docs/` | Legacy navigation menus (Markdown format) |
+| `.sh` Scripts | Bash scripts used for extraction and cleanup |
 
 ---
 
-## 🚨 Key Notes
+## 🚨 Notes
 
-- **Full Historical Integrity:**  
-  Original content preserved with minimal modifications beyond structural corrections necessary for modern preservation standards.
-  
-- **Cloud-Backed Redundancy:**  
-  Secure copies maintained across multiple trusted cloud environments for disaster recovery.
+- **Content Authenticity:**  
+  Original text, media, and navigational structures have been preserved to maintain historical integrity.
 
-- **Scalable Restoration:**  
-  Assets and structure preserved in formats compatible with WordPress, Gutenberg, or custom CMS migration if future publication is desired.
+- **Cleanup Scope:**  
+  Structural corrections have been made where necessary to support future readability and compatibility, without altering substantive content.
 
-- **Technical Compliance:**  
-  Preservation methodologies align with industry best practices for digital historical archiving.
+- **Large Files:**  
+  Some files exceed 50MB and may trigger GitHub Large File warnings; no active use of Git LFS was necessary for this static archive.
 
----
-
-## ✍️ Project Stewardship
-
-This project was led and executed by:
-
-**Rob Moore**  
-MemberMinder Pro, 2025
-
-Contracted for the purpose of securing Rotary's historic digital records for future generations and ensuring accessibility independent of hosting provider longevity.
-
-> *"Archiving history is not simply about storage — it’s about stewardship, accessibility, and respect for those who built the world we inherit."*
+- **Usage:**  
+  This repository is intended for archival reference. It is not an active development project.
 
 ---
 
-# 📈 Preservation Status: ✅ 100% Complete
+## 📦 Backup and Redundancy
 
-Future edits, restoration projects, or public re-publication initiatives are fully supported by the structure and documentation contained within this repository.
+Secure cloud backups and offline archives have been created to ensure the preservation of these materials independent of this GitHub repository.
+
+- The full site backup archive (`rghf-first100.tar.gz`) is stored in Member Minder Pro’s **Google Drive** cloud storage:
+  - Location: `Client Assets → RGHF → First100`
+  - Direct Access Link: [Google Drive - RGHF First100](https://drive.google.com/drive/folders/1zjD42jTIJaFO6XnpUsNbnEwfZKCTPRhQ)  
+    *(Valid Member Minder Pro account required to access.)*
 
 ---
 
-# 📣 Special Thanks
-
-Gratitude is extended to the Rotary Global History Fellowship leadership and all individuals who contributed to the original creation of the "First 100 Years" project.
-
-Their dedication to preserving Rotary’s impact on global history continues to inspire generations to come.
